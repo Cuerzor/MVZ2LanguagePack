@@ -1,0 +1,40 @@
+{
+    "sprites":{
+        "boom":{
+            "texture" : "boom.png",
+            "pivotX" : 0.5,
+            "pivotY" : 0.5
+        }
+    },
+    "spritesheets":{
+        "ready_set_build":{
+            "texture" : "ready_set_build.png",
+            "slices" : [
+                {
+                    "x" : 0,
+                    "y" : 148,
+                    "width" : 165,
+                    "height" : 74,
+                    "pivotX" : 0.5,
+                    "pivotY" : 0.5
+                },
+                {
+                    "x" : 0,
+                    "y" : 74,
+                    "width" : 165,
+                    "height" : 74,
+                    "pivotX" : 0.5,
+                    "pivotY" : 0.5
+                },
+                {
+                    "x" : 0,
+                    "y" : 0,
+                    "width" : 165,
+                    "height" : 74,
+                    "pivotX" : 0.5,
+                    "pivotY" : 0.5
+                }
+            ]
+        }
+    }
+}

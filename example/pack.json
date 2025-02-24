@@ -1,0 +1,9 @@
+{
+    "name": "Example",
+    "author": "User",
+    "description": "A language pack axample.",
+    "version": {
+        "major": 0,
+        "minor": 0
+    }
+}
