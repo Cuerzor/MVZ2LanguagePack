@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: minecraftvszombies2\n"
-"POT-Creation-Date: 2025-02-24 06:38+0800\n"
-"PO-Revision-Date: 2025-02-24 18:40+0800\n"
+"POT-Creation-Date: 2025-02-24 11:32+0800\n"
+"PO-Revision-Date: 2025-02-24 23:33+0800\n"
 "Last-Translator: \n"
 "Language-Team: English, United States\n"
 "Language: en_US\n"
@@ -857,14 +857,14 @@ msgstr "Golden Dropper fires golden balls, which bounce between enemies and some
 msgctxt "contraptions.description"
 msgid ""
 "发射速度：<color=red>1.5秒</color>\n"
-"伤害：<color=red>60</color>\n"
-"宝石概率：<color=red>10%</color>\n"
+"伤害：<color=red>60，每次反弹后减半</color>\n"
+"宝石概率：<color=red>25%</color>\n"
 "技能：<color=red>立即喷射30发金球</color>\n"
 "<color=red>必须放置在木制投掷器上</color>"
 msgstr ""
 "Fire rate: <color=red>1.5 seconds</color>\n"
-"Damage: <color=red>60</color>\n"
-"Gem chance: <color=red>10%</color>\n"
+"Damage: <color=red>60, halved after each bounce</color>\n"
+"Gem chance: <color=red>25%</color>\n"
 "Evocation: <color=red>Fires 30 golden balls instantly</color>\n"
 "<color=red>Must be placed on Wooden Dropper</color>"
 
@@ -1600,8 +1600,8 @@ msgstr "An unclaimed smartphone that drifted into Kourindou from the outside wor
 #. Properties for artifacts mvz2:smart_phone
 #: Almanac meta file
 msgctxt "artifacts.description"
-msgid "效果：<color=red>关卡结束时消耗所有能量，每消耗50能量获得10金钱</color>"
-msgstr "Effect: <color=red>Consumes all energy after level cleared, +10 money for every 50 energy consumed</color>"
+msgid "效果：<color=red>关卡结束时消耗所有能量，每消耗10能量获得10金钱</color>"
+msgstr "Effect: <color=red>Consumes all energy after level cleared, +10 money for every 10 energy consumed</color>"
 
 #. Flavor for artifacts mvz2:smart_phone
 #: Almanac meta file
@@ -3585,8 +3585,8 @@ msgstr "Smart Phone"
 #. Tooltip for artifact mvz2:smart_phone
 #: Artifact meta file
 msgctxt "artifact.tooltip"
-msgid "关卡结束后消耗所有能量，每消耗50能量获得10金钱"
-msgstr "Consumes all energy after level cleared, +10 money for every 50 energy consumed"
+msgid "关卡结束后消耗所有能量，每消耗10能量获得10金钱"
+msgstr "Consumes all energy after level cleared, +10 money for every 10 energy consumed"
 
 #. Name for artifact mvz2:inverted_mirror
 #: Artifact meta file
