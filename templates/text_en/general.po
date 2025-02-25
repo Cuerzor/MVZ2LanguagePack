@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: minecraftvszombies2\n"
-"POT-Creation-Date: 2025-02-24 11:20+0800\n"
-"PO-Revision-Date: 2025-02-24 23:21+0800\n"
+"POT-Creation-Date: 2025-02-25 10:23+0800\n"
+"PO-Revision-Date: 2025-02-25 22:26+0800\n"
 "Last-Translator: \n"
 "Language-Team: English, United States\n"
 "Language: en_US\n"
@@ -36,6 +36,11 @@ msgstr "Adventure"
 #: /MainGame/MainScene/Mainmenu/Elements/Labels/Archive
 msgid "对话档案"
 msgstr "Archives"
+
+#. 主界面文字
+#: /MainGame/MainScene/Mainmenu/Elements/Labels/Addons
+msgid "插件"
+msgstr "Addons"
 
 #. 主界面文字
 #: /MainGame/MainScene/Mainmenu/Elements/Labels/Stats
@@ -219,6 +224,41 @@ msgstr "Segments"
 #: /MainGame/MainScene/MusicRoom/Canvas/Index/Top/Title/Text
 msgid "音乐室"
 msgstr "Music Room"
+
+#. 插件按钮
+#: /MainGame/MainScene/Addons/Canvas/Index/Center/List/Scroll
+#: View/Viewport/Content/LanguagePacksButton/Text
+msgid "语言包"
+msgstr "Language Packs"
+
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Center/Disabled/Text
+msgid "禁用"
+msgstr "Disabled"
+
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Center/Enabled/Text
+msgid "启用"
+msgstr "Enabled"
+
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Center/Enabled/Scroll
+#: View/Viewport/Content/Text
+msgid "更上方的语言包的内容会更优先被加载。"
+msgstr ""
+"The content of language packs positioned higher up will be loaded with "
+"priority."
+
+#. 语言包按钮
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Bottom/Row1/ImportButton/Text
+msgid "导入"
+msgstr "Import"
+
+#. 语言包按钮
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Bottom/Row1/ExportButton/Text
+msgid "导出"
+msgstr "Export"
+
+#: /MainGame/MainScene/Addons/Canvas/Loading/Text
+msgid "加载中……"
+msgstr "Loading..."
 
 #. 成就完成提示
 #: /MainGame/MainScene/GlobalUICanvas/AchievementHint/Root/Region/Texts/Earned
@@ -1020,19 +1060,19 @@ msgstr ""
 msgid "获取赞助者列表……"
 msgstr "Getting Sponsors..."
 
-#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:587
+#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:592
 msgid "无法删除用户：{0}"
 msgstr "Cannot delete user: {0}"
 
-#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:589
+#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:594
 msgid "无法切换至用户：{0}"
 msgstr "Cannot switch to user: {0}"
 
-#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:591
+#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:596
 msgid "没有其他有效的用户可供切换。"
 msgstr "There are no other available users to switch."
 
-#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:593
+#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:598
 msgid "确认要退出吗？"
 msgstr "Quit?"
 

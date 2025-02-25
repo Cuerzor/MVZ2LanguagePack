@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 "Project-Id-Version: MinecraftVSZombies2\n"
-"POT-Creation-Date: 2025-02-24 11:20+0800\n"
+"POT-Creation-Date: 2025-02-25 10:23+0800\n"
 "Language-Team: Cuerzor\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,6 +29,11 @@ msgstr ""
 #. 主界面文字
 #: /MainGame/MainScene/Mainmenu/Elements/Labels/Archive
 msgid "对话档案"
+msgstr ""
+
+#. 主界面文字
+#: /MainGame/MainScene/Mainmenu/Elements/Labels/Addons
+msgid "插件"
 msgstr ""
 
 #. 主界面文字
@@ -208,6 +213,37 @@ msgstr ""
 
 #: /MainGame/MainScene/MusicRoom/Canvas/Index/Top/Title/Text
 msgid "音乐室"
+msgstr ""
+
+#. 插件按钮
+#: /MainGame/MainScene/Addons/Canvas/Index/Center/List/Scroll View/Viewport/Content/LanguagePacksButton/Text
+msgid "语言包"
+msgstr ""
+
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Center/Disabled/Text
+msgid "禁用"
+msgstr ""
+
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Center/Enabled/Text
+msgid "启用"
+msgstr ""
+
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Center/Enabled/Scroll View/Viewport/Content/Text
+msgid "更上方的语言包的内容会更优先被加载。"
+msgstr ""
+
+#. 语言包按钮
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Bottom/Row1/ImportButton/Text
+msgid "导入"
+msgstr ""
+
+#. 语言包按钮
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Bottom/Row1/ExportButton/Text
+msgid "导出"
+msgstr ""
+
+#: /MainGame/MainScene/Addons/Canvas/Loading/Text
+msgid "加载中……"
 msgstr ""
 
 #. 成就完成提示
@@ -1124,22 +1160,22 @@ msgid "获取赞助者列表……"
 msgstr ""
 
 # 删除用户时的错误信息，{0}为错误信息
-#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:587
+#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:592
 msgid "无法删除用户：{0}"
 msgstr ""
 
 # 切换用户时的错误信息，{0}为错误信息
-#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:589
+#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:594
 msgid "无法切换至用户：{0}"
 msgstr ""
 
 # 删除用户时的错误信息
-#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:591
+#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:596
 msgid "没有其他有效的用户可供切换。"
 msgstr ""
 
 # 退出对话框的描述
-#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:593
+#: Scripts\MVZ2\Mainmenu\MainmenuController.cs:598
 msgid "确认要退出吗？"
 msgstr ""
 
