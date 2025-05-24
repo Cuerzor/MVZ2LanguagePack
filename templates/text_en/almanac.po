@@ -986,14 +986,14 @@ msgstr ""
 "\n"
 "Who was it that said this?"
 
-#. Header for contraptions mvz2:gravitation_bomb
+#. Header for contraptions mvz2:black_hole_bomb
 #: Almanac meta file
 msgctxt "contraptions.description"
 msgid "黑洞炸弹在触发后会产生小型黑洞，吸引周围所有的敌怪和子弹。"
 msgstr ""
-"Gravitation Bomb will create a tiny black hole after being triggered, which absorbs all enemy monsters and projectiles in a radius."
+"Black Hole Bomb will create a tiny black hole after being triggered, which absorbs all enemy monsters and projectiles in a radius."
 
-#. Properties for contraptions mvz2:gravitation_bomb
+#. Properties for contraptions mvz2:black_hole_bomb
 #: Almanac meta file
 msgctxt "contraptions.description"
 msgid ""
@@ -1007,7 +1007,7 @@ msgstr ""
 "Radius: <color=red>1.5 grids</color>\n"
 "Evocation: <color=red>Creates an annihilation field instead, instantly destroys all enemies and enemy projectiles in the radius</color>"
 
-#. Flavor for contraptions mvz2:gravitation_bomb
+#. Flavor for contraptions mvz2:black_hole_bomb
 #: Almanac meta file
 msgctxt "contraptions.description"
 msgid ""
@@ -4015,13 +4015,13 @@ msgctxt "entity.tooltip"
 msgid "召唤友方骷髅战士"
 msgstr "Summon friendly skeleton warriors"
 
-#. Name for entity mvz2:gravitation_bomb
+#. Name for entity mvz2:black_hole_bomb
 #: Entity meta file
 msgctxt "entity.name"
 msgid "黑洞炸弹"
-msgstr "Gravitation Bomb"
+msgstr "Black Hole Bomb"
 
-#. Tooltip for entity mvz2:gravitation_bomb
+#. Tooltip for entity mvz2:black_hole_bomb
 #: Entity meta file
 msgctxt "entity.tooltip"
 msgid "触发后产生引力黑洞"
