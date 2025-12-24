@@ -3,13 +3,25 @@ msgid ""
 msgstr ""
 
 "Project-Id-Version: MinecraftVSZombies2\n"
-"POT-Creation-Date: 2025-07-04 01:06+0800\n"
+"POT-Creation-Date: 2025-12-22 03:12+0800\n"
 "Language-Team: Cuerzor\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n"
+
+#. Name for almanac tag placement_buried
+#: Almanac meta file
+msgctxt "almanac_tag.name"
+msgid "埋藏器械"
+msgstr ""
+
+#. Description for almanac tag placement_buried
+#: Almanac meta file
+msgctxt "almanac_tag.description"
+msgid "只能放置在实心地面上"
+msgstr ""
 
 #. Name for almanac tag placement_land
 #: Almanac meta file
@@ -81,6 +93,30 @@ msgstr ""
 #: Almanac meta file
 msgctxt "almanac_tag.description"
 msgid "必须放置在木制投掷器上"
+msgstr ""
+
+#. Name for almanac tag placement_beacon
+#: Almanac meta file
+msgctxt "almanac_tag.name"
+msgid "升级器械：信标"
+msgstr ""
+
+#. Description for almanac tag placement_beacon
+#: Almanac meta file
+msgctxt "almanac_tag.description"
+msgid "必须放置在信标上"
+msgstr ""
+
+#. Name for almanac tag placement_repeatenser
+#: Almanac meta file
+msgctxt "almanac_tag.name"
+msgid "升级器械：连射发射器"
+msgstr ""
+
+#. Description for almanac tag placement_repeatenser
+#: Almanac meta file
+msgctxt "almanac_tag.description"
+msgid "必须放置在连射发射器上"
 msgstr ""
 
 #. Name for almanac tag placement_diamond_spikes
@@ -230,7 +266,7 @@ msgstr ""
 #. Description for almanac tag defensive
 #: Almanac meta file
 msgctxt "almanac_tag.description"
-msgid "阻挡敌人用的器械"
+msgid "阻挡怪物用的器械"
 msgstr ""
 
 #. Name for almanac tag floor_contraption
@@ -242,7 +278,7 @@ msgstr ""
 #. Description for almanac tag floor_contraption
 #: Almanac meta file
 msgctxt "almanac_tag.description"
-msgid "不会被一般敌人发现"
+msgid "不会被一般怪物发现"
 msgstr ""
 
 #. Name for almanac tag low
@@ -527,6 +563,30 @@ msgctxt "almanac_tag_enum.description"
 msgid "免疫火焰伤害，阻挡锐利物体和火焰溅射，但受到20x冲击伤害"
 msgstr ""
 
+#. Name for almanac tag enum value mvz2:cloud of enum shell
+#: Almanac meta file
+msgctxt "almanac_tag_enum.name"
+msgid "云"
+msgstr ""
+
+#. Description for almanac tag enum value mvz2:cloud of enum shell
+#: Almanac meta file
+msgctxt "almanac_tag_enum.description"
+msgid "受到0.5x冲击或火焰伤害"
+msgstr ""
+
+#. Name for almanac tag enum value mvz2:lightning of enum shell
+#: Almanac meta file
+msgctxt "almanac_tag_enum.name"
+msgid "闪电"
+msgstr ""
+
+#. Description for almanac tag enum value mvz2:lightning of enum shell
+#: Almanac meta file
+msgctxt "almanac_tag_enum.description"
+msgid "吸收闪电伤害"
+msgstr ""
+
 #. Header for contraptions mvz2:dispenser
 #: Almanac meta file
 msgctxt "contraptions.description"
@@ -622,7 +682,7 @@ msgstr ""
 #. Header for contraptions mvz2:mine_tnt
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "地雷TNT在一定时间的准备后能够炸飞接近的敌人。"
+msgid "地雷TNT在一定时间的准备后能够炸飞接近的敌方怪物。"
 msgstr ""
 
 #. Properties for contraptions mvz2:mine_tnt
@@ -673,7 +733,7 @@ msgstr ""
 msgctxt "contraptions.description"
 msgid ""
 "提供能量：<color=red>1点/1.6秒，而后1点/1秒</color>\n"
-"技能：<color=red>立即升级，发出蓝光，并使生产量变为2.5倍</color>"
+"技能：<color=red>立即升级，发出蓝光，并使生产量变为2倍</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:moonlight_sensor
@@ -693,7 +753,7 @@ msgstr ""
 msgctxt "contraptions.description"
 msgid ""
 "照明半径：<color=red>1.5格</color>\n"
-"技能：<color=red>眩晕所有敌人5秒，清除器械的精神控制状态</color>"
+"技能：<color=red>眩晕所有敌方怪物5秒，清除器械的精神控制状态</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:glowstone
@@ -705,7 +765,7 @@ msgstr ""
 #. Header for contraptions mvz2:punchton
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "冲击活塞能够击退前方的敌人并击碎<tag id=\"mvz2:shell\" enum=\"mvz2:stone\"/>石制品，但之后需要一定时间来修复自身。"
+msgid "冲击活塞能够击退前方的敌方怪物并击碎<tag id=\"mvz2:shell\" enum=\"mvz2:stone\" />石制品，但之后需要一定时间来修复自身。"
 msgstr ""
 
 #. Properties for contraptions mvz2:punchton
@@ -747,7 +807,7 @@ msgstr ""
 #. Header for contraptions mvz2:soul_furnace
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "灵魂熔炉发射恐怖的灵魂火，但需要烧毁前方的器械。"
+msgid "灵魂熔炉发射恐怖的<tag id=\"mvz2:fire\" />灵魂火，但需要烧毁前方的器械来补充燃料。"
 msgstr ""
 
 #. Properties for contraptions mvz2:soul_furnace
@@ -757,7 +817,7 @@ msgid ""
 "伤害：<color=red>80</color>\n"
 "溅射伤害：<color=red>20（不伤害直接目标）</color>\n"
 "特点：<color=red>需要烧毁器械补充燃料</color>\n"
-"燃料上限：<color=red>60</color>\n"
+"燃料上限：<color=red>120</color>\n"
 "技能：<color=red>消耗所有燃料，每有一发燃料被消耗，便随机对一个敌人发射爆炸灵魂火球</color>"
 msgstr ""
 
@@ -770,7 +830,7 @@ msgstr ""
 #. Header for contraptions mvz2:silvenser
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "银质发射器能发射穿透<tag id=\"mvz2:shell\" enum=\"mvz2:flesh\"/>血肉之躯的飞刀。"
+msgid "银制发射器能发射穿透<tag id=\"mvz2:shell\" enum=\"mvz2:flesh\" />血肉之躯的飞刀。"
 msgstr ""
 
 #. Properties for contraptions mvz2:silvenser
@@ -851,13 +911,13 @@ msgstr ""
 #. Header for contraptions mvz2:gravity_pad
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "重力板能够降低上方子弹的高度并能让它上面的敌人无法跳跃。"
+msgid "重力板能够降低上方子弹的高度并能让它上面的敌方怪物无法跳跃。"
 msgstr ""
 
 #. Properties for contraptions mvz2:gravity_pad
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "技能：<color=red>铁砧从天而降，砸伤敌人并阻挡它们前进</color>"
+msgid "技能：<color=red>铁砧从天而降，砸伤敌人并阻挡怪物们前进</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:gravity_pad
@@ -875,7 +935,7 @@ msgstr ""
 #. Properties for contraptions mvz2:vortex_hopper
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "技能：<color=red>将更大范围的敌人拉入水底</color>"
+msgid "技能：<color=red>将更大范围的敌方怪物拉入水底</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:vortex_hopper
@@ -911,7 +971,7 @@ msgstr ""
 #. Header for contraptions mvz2:totenser
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "图腾发射器在发射飞镖的同时还会喷火烧伤近处的敌人。"
+msgid "图腾发射器在发射飞镖的同时还会<tag id=\"mvz2:fire\" />喷火烧伤近处的敌人。"
 msgstr ""
 
 #. Properties for contraptions mvz2:totenser
@@ -941,7 +1001,7 @@ msgstr ""
 msgctxt "contraptions.description"
 msgid ""
 "耐久：<color=red>2000</color>\n"
-"恢复速度：<color=red>40/秒</color>\n"
+"恢复速度：<color=red>60/秒</color>\n"
 "技能：<color=red>进入无敌状态，并为周围的器械恢复耐久</color>"
 msgstr ""
 
@@ -1022,7 +1082,7 @@ msgstr ""
 #. Header for contraptions mvz2:stone_dropper
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "石制投掷器向敌人发射小型卵石，偶尔会发射能击退敌人并分裂的巨石。"
+msgid "石制投掷器向敌人发射小型卵石，偶尔会发射能击退敌方怪物并分裂的巨石。"
 msgstr ""
 
 #. Properties for contraptions mvz2:stone_dropper
@@ -1067,13 +1127,13 @@ msgstr ""
 #. Header for contraptions mvz2:golden_apple
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "金苹果可以魅惑一个近战攻击它的敌怪，使其为你而战。"
+msgid "金苹果可以魅惑一个近战攻击它的敌方怪物，使其为你而战。"
 msgstr ""
 
 #. Properties for contraptions mvz2:golden_apple
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "技能：<color=red>发出彩色炫光，被魅惑的敌怪变为突变僵尸</color>"
+msgid "技能：<color=red>发出彩色炫光，被魅惑的敌方怪物变为突变僵尸</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:golden_apple
@@ -1087,7 +1147,7 @@ msgstr ""
 #. Header for contraptions mvz2:thunder_drum
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "雷鼓在触发后会震飞所有地面上的敌怪，使其后退并换行。之后进入破损状态，需要时间修复。"
+msgid "雷鼓在触发后会震飞所有地面上的敌方怪物，使其后退并换行。之后进入破损状态，需要时间修复。"
 msgstr ""
 
 #. Properties for contraptions mvz2:thunder_drum
@@ -1095,7 +1155,7 @@ msgstr ""
 msgctxt "contraptions.description"
 msgid ""
 "修复时间：<color=red>60秒</color>\n"
-"技能：<color=red>引发4秒地震，对所有地面上的敌怪造成总共25%最大生命的伤害</color>"
+"技能：<color=red>引发4秒地震，对所有地面上的敌人造成总共25%最大生命的伤害</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:thunder_drum
@@ -1301,7 +1361,7 @@ msgstr ""
 #. Header for contraptions mvz2:black_hole_bomb
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "黑洞炸弹在触发后会产生小型黑洞，吸引周围所有的敌怪和子弹。"
+msgid "黑洞炸弹在触发后会产生小型黑洞，吸引周围所有的敌方怪物和子弹。"
 msgstr ""
 
 #. Properties for contraptions mvz2:black_hole_bomb
@@ -1326,7 +1386,7 @@ msgstr ""
 #. Header for contraptions mvz2:desire_pot
 #: Almanac meta file
 msgctxt "contraptions.description"
-msgid "欲望壶会从敌人身上复制其携带的星之碎片，每个欲望壶最多复制三个。"
+msgid "欲望壶会从怪物身上复制其携带的星之碎片，每个欲望壶最多复制三个。"
 msgstr ""
 
 #. Properties for contraptions mvz2:desire_pot
@@ -1360,7 +1420,7 @@ msgid ""
 "爆炸半径：<color=red>1.5格</color>\n"
 "生产时间：<color=red>36秒</color>\n"
 "提供能量：<color=red>50</color>\n"
-"技能：<color=red>改为生成暴怒火药，提供75能量，但是会更快爆炸</color>"
+"技能：<color=red>改为生成暴怒火药，提供100能量，但是会更快爆炸</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:gunpowder_barrel
@@ -1372,6 +1432,51 @@ msgid ""
 "硝石（被埋葬的尸体旁一般会产生结晶）\n"
 "木炭（燃烧木头的产物）\n"
 "那么——等等，我为什么要告诉你这些？"
+msgstr ""
+
+#. Header for contraptions mvz2:triplenser
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "三头发射器一次能发射三行的箭矢。如果它位于最外侧的行，则改为向它自己所在的一行额外发射箭矢。"
+msgstr ""
+
+#. Properties for contraptions mvz2:triplenser
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"发射速度：<color=red>3支/1.5秒</color>\n"
+"伤害：<color=red>20</color>\n"
+"技能：<color=red>发射三颗缓慢飞行的，互相环绕的星球，穿透并反复打击敌人</color>"
+msgstr ""
+
+#. Flavor for contraptions mvz2:triplenser
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"它喜欢看的典故有很多：三打白骨精、三顾茅庐、三打祝家庄……\n"
+"……确定它喜欢看的是典故的内容吗？"
+msgstr ""
+
+#. Header for contraptions mvz2:firework_dispenser
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "烟花发射器会自动轰击上方高空中的敌人。"
+msgstr ""
+
+#. Properties for contraptions mvz2:firework_dispenser
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"发射速度：<color=red>1发/3秒</color>\n"
+"伤害：<color=red>200，只能伤害高空中的敌人</color>\n"
+"爆炸半径：<color=red>1.5格</color>\n"
+"技能：<color=red>爆炸半径永久+1格</color>"
+msgstr ""
+
+#. Flavor for contraptions mvz2:firework_dispenser
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "烟花发射器很喜欢过节，尤其是那种盛大的节日——由于之前的器械扰民事件，它被禁止在平常的日子里放烟花。但是当盛大的节日到来之际，它可要好好的放个够了。"
 msgstr ""
 
 #. Header for contraptions mvz2:repeatenser
@@ -1395,6 +1500,93 @@ msgctxt "contraptions.description"
 msgid ""
 "它没能有幸加入高频脉冲发射器的士兵队伍，因为它每次说话都要说两遍。\n"
 "它没能有幸加入高频脉冲发射器的士兵队伍，因为它每次说话都要说两遍。"
+msgstr ""
+
+#. Header for contraptions mvz2:beacon
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "信标能向后方、上方、下方、前上方、前下方五个方向同时发射星星手里剑。"
+msgstr ""
+
+#. Properties for contraptions mvz2:beacon
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"发射速度：<color=red>5发/1.5秒</color>\n"
+"伤害：<color=red>20</color>\n"
+"技能：<color=red>召唤10颗陨石，打击场上随机位置</color>"
+msgstr ""
+
+#. Flavor for contraptions mvz2:beacon
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "它其实不是用下界之星做的，只是一个会发射手里剑的发射器改成的假冒伪劣产品而已。"
+msgstr ""
+
+#. Header for contraptions mvz2:wooden_fan
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "木风扇在触发后会将一整行内的敌方怪物吹回原地。如果怪物较轻，还会直接将其吹出战场。"
+msgstr ""
+
+#. Properties for contraptions mvz2:wooden_fan
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"特点：<color=red>可以直接吹飞空中或者较轻的怪物，但对地面上较重的怪物没有效果</color>\n"
+"范围：<color=red>一整行</color>\n"
+"技能：<color=red>改为吹动整个战场的怪物</color>"
+msgstr ""
+
+#. Flavor for contraptions mvz2:wooden_fan
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "这东西哪有那么重量级，都被你们吹到天上去了！"
+msgstr ""
+
+#. Header for contraptions mvz2:elastic_cloud
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "弹性云会以自身的耐久为代价，弹开接触到的敌方怪物和子弹。"
+msgstr ""
+
+#. Properties for contraptions mvz2:elastic_cloud
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"耐久：<color=red>3000</color>\n"
+"耐久消耗：<color=red>300（怪物），450（怪物，困难难度），20（子弹）</color>\n"
+"技能：<color=red>击退并弹飞半径2.5格内的所有敌方怪物</color>"
+msgstr ""
+
+#. Flavor for contraptions mvz2:elastic_cloud
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "“说了多少遍了，我们这里不提供网络服务器！”"
+msgstr ""
+
+#. Header for contraptions mvz2:jeweled_pagoda
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "珠光宝塔会暂时禁用一整行内的所有空地格，并在立即生产星之碎片后消失。"
+msgstr ""
+
+#. Properties for contraptions mvz2:jeweled_pagoda
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"禁用时长：<color=red>4分钟</color>\n"
+"产量：<color=red>1星之碎片/3禁用的地格</color>\n"
+"技能：<color=red>无</color>"
+msgstr ""
+
+#. Flavor for contraptions mvz2:jeweled_pagoda
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"毗沙门天的宝塔的仿制品，同样拥有带来财富的能力，可以将物体变成黄金以及各色的美丽珠宝。\n"
+"不过不要把这种珠宝三个摆放在一条线上，不然它们会消失。\n"
+"更不要把这种珠宝四个、五个放在一条线上，或者交叉摆放，除非你真的想缺胳膊少腿。"
 msgstr ""
 
 #. Header for contraptions mvz2:infectenser
@@ -1430,7 +1622,7 @@ msgctxt "contraptions.description"
 msgid ""
 "上下方向：<color=red>转移物体</color>\n"
 "前后方向：<color=red>使子弹掉头，或使子弹加速并带有击退效果。移动上方的怪物</color>\n"
-"技能：<color=red>将周围的敌怪移动到一个指定的位置</color>"
+"技能：<color=red>将周围的敌方怪物移动到一个指定的位置</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:force_pad
@@ -1461,6 +1653,31 @@ msgctxt "contraptions.description"
 msgid "它把木制投掷器的笑话专利买下来了，所以它可以理所应当地玩鑫鑫鑫鑫鑫鑫鑫鑫鑫鑫制投掷器的笑话了！"
 msgstr ""
 
+#. Header for contraptions mvz2:skyward_beacon
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid "御天信标会发射光柱持续打击一处定点内的所有敌人。触发它可以修改打击的定点位置。"
+msgstr ""
+
+#. Properties for contraptions mvz2:skyward_beacon
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"发射速度：<color=red>1发/3秒</color>\n"
+"伤害：<color=red>147</color>\n"
+"技能：<color=red>展开一片星空，将场地临时变为黑夜，空中会掉落总共300颗星星子弹，每颗星星造成55点伤害，持续30秒。</color>"
+msgstr ""
+
+#. Flavor for contraptions mvz2:skyward_beacon
+#: Almanac meta file
+msgctxt "contraptions.description"
+msgid ""
+"御天信标一直都是器械界的一位大歌星——我没在开双关玩笑，它是真的很有人气。\n"
+"在舞台上，它随手就能展开一片星空，让所有人在台下为这绚丽的景象欢呼，炒热现场气氛之后再来上一曲。演唱会的主办方都赚麻了。\n"
+"它喜欢研究各种剑，最喜欢的颜色是黄色，最喜欢的数字是1437。它和石制投掷器算是不错的朋友，但它也非常讨厌骷髅头。\n"
+"不过他有一个坏毛病：喜欢不懂装懂。（比如谎称自己在无尽模式中达到了多少多少轮。）"
+msgstr ""
+
 #. Header for contraptions mvz2:high_frequency_pulse_dispenser
 #: Almanac meta file
 msgctxt "contraptions.description"
@@ -1473,7 +1690,7 @@ msgctxt "contraptions.description"
 msgid ""
 "发射速度：<color=red>4支/1.5秒</color>\n"
 "伤害：<color=red>20</color>\n"
-"技能：<color=red>永久改为发射六支箭矢，并<tag id=\"mvz2:light_source\"/>发光</color>"
+"技能：<color=red>永久改为发射六支箭矢，并<tag id=\"mvz2:light_source\" />发光</color>"
 msgstr ""
 
 #. Flavor for contraptions mvz2:high_frequency_pulse_dispenser
@@ -1551,6 +1768,26 @@ msgctxt "enemies.description"
 msgid "在上一次尸界大战失败后，僵尸在墙角里做了三天三夜的反省。后来他开始锻炼自己，想让自己变得更强以吃到更多的脑子。现在的他看起来……好吧还是没变。"
 msgstr ""
 
+#. Header for enemies mvz2:flag_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "旗帜僵尸的出现标志着一大波怪物的到来。"
+msgstr ""
+
+#. Properties for enemies mvz2:flag_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid ""
+"生命：<color=red>200</color>\n"
+"速度：<color=red>2</color>"
+msgstr ""
+
+#. Flavor for enemies mvz2:flag_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "当他被授予旗帜时，他感到无比的荣幸和骄傲。他觉得自己作为僵尸的领导拥有至高无上的地位，便无时无刻不飘飘然。然而他不知道他的背后有多少人在嘲笑他是个肉盾。"
+msgstr ""
+
 #. Header for enemies mvz2:leather_capped_zombie
 #: Almanac meta file
 msgctxt "enemies.description"
@@ -1589,26 +1826,6 @@ msgstr ""
 #: Almanac meta file
 msgctxt "enemies.description"
 msgid "戴着铁盔的僵尸好像是生前是个战士一样，其实不是，它只是比较有智商而已。"
-msgstr ""
-
-#. Header for enemies mvz2:flag_zombie
-#: Almanac meta file
-msgctxt "enemies.description"
-msgid "旗帜僵尸的出现标志着一大波怪物的到来。"
-msgstr ""
-
-#. Properties for enemies mvz2:flag_zombie
-#: Almanac meta file
-msgctxt "enemies.description"
-msgid ""
-"生命：<color=red>200</color>\n"
-"速度：<color=red>2</color>"
-msgstr ""
-
-#. Flavor for enemies mvz2:flag_zombie
-#: Almanac meta file
-msgctxt "enemies.description"
-msgid "当他被授予旗帜时，他感到无比的荣幸和骄傲。他觉得自己作为僵尸的领导拥有至高无上的地位，便无时无刻不飘飘然。然而他不知道他的背后有多少人在嘲笑他是个肉盾。"
 msgstr ""
 
 #. Header for enemies mvz2:skeleton
@@ -1664,7 +1881,7 @@ msgctxt "enemies.description"
 msgid ""
 "生命：<color=red>200</color>\n"
 "抗性：<color=red>虚无状态下减少90%受到的伤害</color>\n"
-"弱点：<color=red>被<tag id=\"mvz2:light_source\"/>光照到时会失去虚无效果</color>"
+"弱点：<color=red>被<tag id=\"mvz2:light_source\" />光照到时会失去虚无效果</color>"
 msgstr ""
 
 #. Flavor for enemies mvz2:ghost
@@ -1684,7 +1901,7 @@ msgstr ""
 msgctxt "enemies.description"
 msgid ""
 "生命：<color=red>200</color>\n"
-"弱点：<color=red>毒雾可以被<tag id=\"mvz2:fire\"/>火烧掉</color>"
+"弱点：<color=red>毒雾可以被<tag id=\"mvz2:fire\" />火烧掉</color>"
 msgstr ""
 
 #. Flavor for enemies mvz2:mummy
@@ -1725,7 +1942,7 @@ msgctxt "enemies.description"
 msgid ""
 "生命：<color=red>160</color>\n"
 "速度：<color=red>2</color>\n"
-"特点：<color=red>可以爬上并越过<tag id=\"mvz2:defensive\"/>防御性器械</color>"
+"特点：<color=red>可以爬上并越过<tag id=\"mvz2:defensive\" />防御性器械</color>"
 msgstr ""
 
 #. Flavor for enemies mvz2:spider
@@ -1791,7 +2008,7 @@ msgctxt "enemies.description"
 msgid ""
 "生命：<color=red>200</color>\n"
 "速度：<color=red>2</color>，而后<color=red>0.6</color>（产卵后）\n"
-"特点：<color=red>碰到的血肉之躯会被寄生</color>"
+"特点：<color=red>碰到的<tag id=\"mvz2:shell\" enum=\"mvz2:flesh\" />血肉之躯会被寄生</color>"
 msgstr ""
 
 #. Flavor for enemies mvz2:mother_terror
@@ -1880,7 +2097,7 @@ msgid ""
 "马速度：<color=red>2（跳跃前），1（跳跃后）</color>\n"
 "身体速度：<color=red>1</color>\n"
 "头颅速度：<color=red>2</color>\n"
-"弱点：<color=red>金质物品，无法跳过<tag id=\"mvz2:high\"/>高器械</color>"
+"弱点：<color=red>金质物品，无法跳过<tag id=\"mvz2:high\" />高器械</color>"
 msgstr ""
 
 #. Flavor for enemies mvz2:dullahan
@@ -1946,7 +2163,7 @@ msgstr ""
 #: Almanac meta file
 msgctxt "enemies.description"
 msgid ""
-"生命：<color=red>200+600</color>\n"
+"生命：<color=red>200+710</color>\n"
 "速度：<color=red>1</color>\n"
 "特点：<color=red>子弹击中反射壁并消失后，产生伤害相同的子弹进行回击</color>"
 msgstr ""
@@ -1960,29 +2177,6 @@ msgid ""
 "“再反弹！”\n"
 "“反弹回去！”\n"
 "“再弹！”"
-msgstr ""
-
-#. Header for enemies mvz2:talisman_zombie
-#: Almanac meta file
-msgctxt "enemies.description"
-msgid "灵符僵尸跳跃前进，并能够在攻击的同时恢复生命值。"
-msgstr ""
-
-#. Properties for enemies mvz2:talisman_zombie
-#: Almanac meta file
-msgctxt "enemies.description"
-msgid ""
-"生命：<color=red>200</color>\n"
-"速度：<color=red>1</color>\n"
-"特点：<color=red>攻击时恢复等量生命值</color>"
-msgstr ""
-
-#. Flavor for enemies mvz2:talisman_zombie
-#: Almanac meta file
-msgctxt "enemies.description"
-msgid ""
-"你知道的，伙计——只要在那个灵符上写上任何东西，它就会按照上面写的事情去照办。\n"
-"比如……写上“不要照着这句话做”。"
 msgstr ""
 
 #. Header for enemies mvz2:wicked_hermit_zombie
@@ -2008,6 +2202,29 @@ msgid ""
 "即使是在他死后，这份执念也依然没有结束。他变成了僵尸，为的就是继续生前的进程。\n"
 "终于，他成为了邪仙，现在他再也不用害怕死亡了！\n"
 "……你就不觉得哪里不对吗？"
+msgstr ""
+
+#. Header for enemies mvz2:talisman_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "灵符僵尸跳跃前进，并能够在攻击的同时恢复生命值。"
+msgstr ""
+
+#. Properties for enemies mvz2:talisman_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid ""
+"生命：<color=red>350</color>\n"
+"速度：<color=red>1</color>\n"
+"特点：<color=red>攻击时恢复等量生命值</color>"
+msgstr ""
+
+#. Flavor for enemies mvz2:talisman_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid ""
+"你知道的，伙计——只要在那个灵符上写上任何东西，它就会按照上面写的事情去照办。\n"
+"比如……写上“不要照着这句话做”。"
 msgstr ""
 
 #. Header for enemies mvz2:shikaisen_zombie
@@ -2053,6 +2270,117 @@ msgctxt "enemies.description"
 msgid ""
 "他并不是什么大国的皇帝，就是一个僵尸小圈子里面，天天被捧的高高的，实际上就只会套盾，被碰一下就破防，还以为自己有多大能耐的土皇帝罢了。\n"
 "<color=red>【图鉴 已被禁言，有效期是永久】</color>"
+msgstr ""
+
+#. Name for enemies mvz2:undead_flying_object
+#: Almanac meta file
+msgctxt "enemies.name"
+msgid "不死飞行物"
+msgstr ""
+
+#. Header for enemies mvz2:undead_flying_object
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "不死飞行物从空中来袭并对你进行干扰。在那之后它们就会离开。"
+msgstr ""
+
+#. Properties for enemies mvz2:undead_flying_object
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid ""
+"生命：<color=red>100</color>\n"
+"红色：<color=red>放出僵尸</color>\n"
+"绿色：<color=red>绑架器械</color>\n"
+"蓝色：<color=red>吸取掉落物</color>\n"
+"彩色：<color=red>变成两个随机颜色的不死飞行物</color>"
+msgstr ""
+
+#. Flavor for enemies mvz2:undead_flying_object
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "如果你的农场里大面积地种植了小麦，或者圈养了很多的奶牛，那你可一定要小心这帮家伙了。"
+msgstr ""
+
+#. Header for enemies mvz2:zombie_cloud
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "僵尸云飞在空中，向下降雨形成水迹，踩到水迹的怪物会向前滑动。"
+msgstr ""
+
+#. Properties for enemies mvz2:zombie_cloud
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "生命：<color=red>200</color>"
+msgstr ""
+
+#. Flavor for enemies mvz2:zombie_cloud
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "至少这朵云没有对你竖中指。"
+msgstr ""
+
+#. Header for enemies mvz2:cannoneer_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "炮手僵尸的重型铁炮可以帮他阻挡子弹，并且每隔一段时间便会发射一只炮弹僵尸。"
+msgstr ""
+
+#. Properties for enemies mvz2:cannoneer_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid ""
+"生命：<color=red>200+1110（铁炮）</color>\n"
+"速度：<color=red>0.5，1（失去铁炮后）</color>\n"
+"发射间隔：<color=red>8秒</color>"
+msgstr ""
+
+#. Flavor for enemies mvz2:cannoneer_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "曾经开发过一款手机游戏，不过可惜的是，那款游戏很快就停服了。"
+msgstr ""
+
+#. Header for enemies mvz2:cannonball_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "炮弹僵尸由炮手僵尸发射而来。它们飘浮在空中，并且会像普通的僵尸一样攻击器械。"
+msgstr ""
+
+#. Properties for enemies mvz2:cannonball_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid ""
+"生命：<color=red>100</color>\n"
+"速度：<color=red>2</color>"
+msgstr ""
+
+#. Flavor for enemies mvz2:cannonball_zombie
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid ""
+"没错，炮弹也是一只僵尸！\n"
+"而且特别害怕被脚踩！"
+msgstr ""
+
+#. Header for enemies mvz2:pop_captain
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "大力船长僵尸会使用铁锚将遇到的器械打飞到上方或下方的一行。"
+msgstr ""
+
+#. Properties for enemies mvz2:pop_captain
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid ""
+"生命：<color=red>1100</color>\n"
+"伤害：<color=red>100（冲击）</color>\n"
+"特殊：<color=red>若被移动的器械移动到已有器械的位置，原来的器械将直接被摧毁。</color>"
+msgstr ""
+
+#. Flavor for enemies mvz2:pop_captain
+#: Almanac meta file
+msgctxt "enemies.description"
+msgid "他以前当水手的时候喜欢吃菠菜，不过自从他当了船长之后，他就更喜欢吃橘子了。"
 msgstr ""
 
 #. Header for artifacts mvz2:almanac
@@ -2223,7 +2551,7 @@ msgstr ""
 #. Properties for artifacts mvz2:bottled_blackhole
 #: Almanac meta file
 msgctxt "artifacts.description"
-msgid "效果：<color=red>每有一个蓝图空位，器械+15%伤害</color>"
+msgid "效果：<color=red>每有一个蓝图空位，器械+10%伤害</color>"
 msgstr ""
 
 #. Flavor for artifacts mvz2:bottled_blackhole
@@ -2328,7 +2656,7 @@ msgstr ""
 #. Properties for artifacts mvz2:broken_lantern
 #: Almanac meta file
 msgctxt "artifacts.description"
-msgid "效果：<color=red><tag id=\"mvz2:light_source\"/>发光的器械+25%生产速度和攻击速度，但×50%光照范围</color>"
+msgid "效果：<color=red><tag id=\"mvz2:light_source\" />发光的器械+25%生产速度和攻击速度，但×50%光照范围</color>"
 msgstr ""
 
 #. Flavor for artifacts mvz2:broken_lantern
@@ -2346,7 +2674,7 @@ msgstr ""
 #. Properties for artifacts mvz2:manipulative_talismans
 #: Almanac meta file
 msgctxt "artifacts.description"
-msgid "效果：<color=red>敌怪死亡并倒下时，有10%的概率复活并变为友方</color>"
+msgid "效果：<color=red>敌方怪物死亡并倒下时，有10%的概率复活并变为友方</color>"
 msgstr ""
 
 #. Flavor for artifacts mvz2:manipulative_talismans
@@ -2434,6 +2762,99 @@ msgid ""
 "<color=red>“然后，永无止境地<b>贪婪</b>下去！！！”</color>\n"
 "\n"
 "眼睛愤怒地缩紧了瞳孔。"
+msgstr ""
+
+#. Header for artifacts mvz2:ufo_toy
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid "一个带有魔力的四棱锥玩具。"
+msgstr ""
+
+#. Properties for artifacts mvz2:ufo_toy
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid "效果：<color=red>拾取三个同色宝石后，再生成一个同色的宝石</color>"
+msgstr ""
+
+#. Flavor for artifacts mvz2:ufo_toy
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid ""
+"这个玩具形状是个四棱锥。它的底部有四个不同颜色的飞碟凹槽，每个颜色的凹槽里面都有三个飞碟。\n"
+"四个侧面中，每个侧面都有三个凹槽，凹槽周围分别被涂上了不同的颜色：<color=red>红红红</color>、<color=green>绿绿绿</color>、<color=blue>蓝蓝蓝</color>、<color=red>红</color><color=green>绿</color><color=blue>蓝</color>。\n"
+"你问我这个玩具怎么玩？很简单，只需要把2个<color=red>红色</color>的和1个<color=blue>蓝色</color>的飞碟放在同一面的凹槽上就行了！"
+msgstr ""
+
+#. Header for artifacts mvz2:dowsing_rods
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid "用于寻找宝物的工具。"
+msgstr ""
+
+#. Properties for artifacts mvz2:dowsing_rods
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid ""
+"效果：<color=red>击杀怪物时有25%概率掉落额外资源</color>\n"
+"绿宝石：<color=red>35%</color>\n"
+"红宝石：<color=red>9%</color>\n"
+"钻石：<color=red>1%</color>\n"
+"3红石：<color=red>30%</color>\n"
+"随机蓝图：<color=red>25%</color>"
+msgstr ""
+
+#. Flavor for artifacts mvz2:dowsing_rods
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid "现在我要使用这个东西调查你的身体！"
+msgstr ""
+
+#. Header for artifacts mvz2:sorcerers_scroll
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid "白莲赠送的魔法物品，通过咏唱来强化人的肉体。"
+msgstr ""
+
+#. Properties for artifacts mvz2:sorcerers_scroll
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid ""
+"效果：<color=red>星之碎片的效果改为格斗术</color>\n"
+"横向拖动：<color=red>冲拳，对一整行内的敌人造成1200点伤害并将其击飞</color>\n"
+"向下拖动：<color=red>俯冲，对半径1.5格内的敌人造成1800点伤害</color>\n"
+"向上拖动：<color=red>上勾拳，对半径2.5格内的敌人造成400点伤害并将其击飞</color>"
+msgstr ""
+
+#. Flavor for artifacts mvz2:sorcerers_scroll
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid ""
+"白莲在被封印到魔界的期间，曾使用魔界的物质制作过这样一款魔人经卷。\n"
+"这经卷完全由经文组成，没有纸这种文字载体。魔界的物质大多有自我意识，那魔人经卷也因此拥有自我意识，可以自动咏唱经文。\n"
+"而在那之后，白莲试着仿照魔人经卷制作仿制品，然而没有魔界中的物质，因此就算充满魔力，这仿制品的效果也比之前的差上许多。\n"
+"不过，足以让史蒂夫这样的普通人类变成“超人”了。"
+msgstr ""
+
+#. Header for artifacts mvz2:dragon_tooth
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid "红龙在打斗中掉下来的一颗牙齿。"
+msgstr ""
+
+#. Properties for artifacts mvz2:dragon_tooth
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid "效果：<color=red>生命值为50%或以下的敌人受到的伤害x200%</color>"
+msgstr ""
+
+#. Flavor for artifacts mvz2:dragon_tooth
+#: Almanac meta file
+msgctxt "artifacts.description"
+msgid ""
+"多年前，高僧手持母亲的牙齿，陷入轮回。\n"
+"而如今，少年举起孩子的牙齿，助其解脱。\n"
+"这最后的“仿制品”你也拿到了。它的主人完全没有它母亲那般仁慈，口中喷出的满是残暴，对于弱者毫无任何慈悲之心。\n"
+"此仇，永世无法平息。"
 msgstr ""
 
 #. Name for almanac group mvz2:bosses
@@ -2574,6 +2995,51 @@ msgid ""
 "他们和巨人一直战斗到天亮。最后，巨人的核心被摧毁，所有尸体又再一次散落到悬崖下方。只不过这次，再也没有怨念出现了。\n"
 "骑士往下面扔了一点食物，随后带着大家离开了。\n"
 "“他们已经饿了很久了，就让他们吃一点吧。”"
+msgstr ""
+
+#. Name for misc mvz2:red_dragon
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "红龙"
+msgstr ""
+
+#. Header for misc mvz2:red_dragon
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "红龙是一头喷火的猛兽，为了报杀母之仇，定要摧毁幻想乡的一切。"
+msgstr ""
+
+#. Properties for misc mvz2:red_dragon
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"生命：<color=red>50000</color>\n"
+"阶段1：<color=red>火焰弹、龙卷风、吞食、火焰吐息</color>\n"
+"阶段2：<color=red>巨型火球、火焰龙卷风、火焰流星、飞空、扫尾</color>"
+msgstr ""
+
+#. Flavor for misc mvz2:red_dragon
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"骑士一行人踏入了一处巨大的山洞，他们举着火把慢慢前进着。\n"
+"山洞中遍布着很多骸骨。有羊的，牛的，其他怪物的，遍地都是——但好像唯独没有人的头骨。\n"
+"骑士听着深处的动静，最终带领队伍找到了他们的目标——一头红龙。\n"
+"红龙见到他们，十分惊讶。它张开口，说出了人类的语言：\n"
+"“你们这些人类，来到这里是想做什么？这里不是你们应该来的地方！”\n"
+"有一位同伴争先答到：\n"
+"“国王的梦预示着王国会被怪物毁灭，因此，我们以国王的名义，要取你的龙头！”\n"
+"红龙瞪大了眼睛，随后又突然尖锐起来。那眼中包含的是悲哀，还有——愤怒。\n"
+"“我曾亲眼看见我的母亲死于你们人类之手。她杀死了很多的人类，导致人类群起而攻之。从那时，我就对你们人类产生了畏惧之心。“\n"
+"“一百年来，我一直避免招惹你们，我本以为这样就不会引来杀身之祸。如今，你们却因为一场无聊的梦便要我的命？”\n"
+"“这就是我所应得的东西？！只是因为你们这群人类自诩为高等生灵？！”\n"
+"红龙的愤怒化作火焰从口中喷出，瞬间点燃了整片巢穴。\n"
+"在那场火焰和钢铁交织的战斗中，红龙逐渐落入下风。最后红龙被骑士刺中喉咙，倒在了地上。\n"
+"“贪婪……会成为你们人类的坟墓……”\n"
+"“我……诅咒……你们……”\n"
+"红龙就这样闭上了眼睛。\n"
+"龙巢的火熄灭了。同伴们将龙的尸体分解，把它的牙、眼、爪、骨、鳞、和心脏作为战利品收集了起来。\n"
+"骑士默默看着他们兴奋的样子，最后却什么也没要。"
 msgstr ""
 
 #. Name for almanac group mvz2:misc_entities
@@ -2807,13 +3273,60 @@ msgstr ""
 #. Header for misc mvz2:monster_spawner
 #: Almanac meta file
 msgctxt "misc.description"
-msgid "刷怪笼会在一大波僵尸来临时召唤一只其内部的敌人。"
+msgid "刷怪笼会在一大波僵尸来临时召唤一只其内部的怪物。"
 msgstr ""
 
 #. Flavor for misc mvz2:monster_spawner
 #: Almanac meta file
 msgctxt "misc.description"
 msgid "我的水桶、告示牌和灵魂沙呢？"
+msgstr ""
+
+#. Name for misc mvz2:unzan_fist
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "云山之拳"
+msgstr ""
+
+#. Header for misc mvz2:unzan_fist
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "云山之拳在碰到敌人后会向前发射，击杀并打飞一行的敌怪。"
+msgstr ""
+
+#. Flavor for misc mvz2:unzan_fist
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"云山是由云朵变化过来的僧侣妖怪，守护在僧侣云居 一轮身旁。\n"
+"在命莲寺众人的讨论和计划下，云山为圣辇船提供了一些云朵拳头作为最终防线。\n"
+"可别小看这些拳头，被击飞的怪物一下子可是能飞十万八千里。"
+msgstr ""
+
+#. Name for misc mvz2:paratrooper_zombie
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "伞兵僵尸"
+msgstr ""
+
+#. Header for misc mvz2:paratrooper_zombie
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "伞兵僵尸会在圣辇船的每一大波怪物到来时从天而降，然后将雨伞作为护盾。"
+msgstr ""
+
+#. Properties for misc mvz2:paratrooper_zombie
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"生命：<color=red>200+270（雨伞）+？（随机头盔）</color>\n"
+"速度：<color=red>1</color>"
+msgstr ""
+
+#. Flavor for misc mvz2:paratrooper_zombie
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "危险动作，小鬼僵尸请勿轻易尝试。"
 msgstr ""
 
 #. Name for almanac group mvz2:characters
@@ -2930,6 +3443,16 @@ msgid ""
 "曾为了颠覆幻想乡的格局而利用了针妙丸，使用了她的万宝槌，甚至动员了幻想乡的弱势妖怪妄图推翻一切。\n"
 "不过，最终这种荒唐的闹剧还是遭到了幻想乡众人的镇压，她自己也因此曾遭到通缉。\n"
 "如今她在四处游荡，成了个不受任何人欢迎的家伙。然而，天邪鬼对“逆转”的那种渴望，似乎也并不会轻易被熄灭就是了。"
+msgstr ""
+
+#. Flavor for misc mvz2:seija
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"在史蒂夫从圣辇船坠落之后，似乎是她救了史蒂夫。\n"
+"然而此举并不是出于好心，而是盯上了史蒂夫身上的星之碎片。\n"
+"“只要拥有这些星之碎片，说不定就能恢复针妙丸的地位，再颠覆整个幻想乡。”\n"
+"她这样想着。"
 msgstr ""
 
 #. Name for misc mvz2:shinmyoumaru
@@ -3072,6 +3595,99 @@ msgctxt "misc.description"
 msgid "这到底是什么东西？"
 msgstr ""
 
+#. Name for misc mvz2:shou
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "寅丸 星"
+msgstr ""
+
+#. Header for misc mvz2:shou
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "被圣白莲选中的虎妖怪，毘沙门天的弟子。"
+msgstr ""
+
+#. Flavor for misc mvz2:shou
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"她本是一只普通的虎妖怪，被圣 白莲选中而成为了毘沙门天的弟子兼化身。\n"
+"她和白莲的关系说起来比较复杂。白莲供奉毘沙门天，而她又选择了星作为弟子，也作为毘沙门天的化身。因此白莲实际上也在供奉她自己的弟子。\n"
+"星在工作上十分优秀，表面看上去十分冷静而威严，然而其实是个很感性的家伙。\n"
+"\n"
+"红龙出现后，白莲失去了消息，于是星和命莲寺众僧侣商议过后，找到了史蒂夫用来对付空中的末地船，之后便和村纱（船长）以及史蒂夫踏上了寻找白莲的旅途。"
+msgstr ""
+
+#. Name for misc mvz2:nue
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "封兽 鵺"
+msgstr ""
+
+#. Header for misc mvz2:nue
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "命莲寺的妖怪，有着让物体变得无法识别的能力。"
+msgstr ""
+
+#. Flavor for misc mvz2:nue
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"鵺（yè）是一名神秘的大妖怪，在之后才加入到命莲寺，因此与命莲寺中的其他人并不合群。\n"
+"喜欢找乐子、妨碍他人做事，常常会使用自己的能力干扰他人行动。\n"
+"被她施加能力的物体，会失去原本的认知特征，在别人眼里会把它视作是自己认为合理的物体——比如飞在空中的奇怪物体，别人会把它看作是飞碟。\n"
+"\n"
+"然而，在异变发生后，她的性格大变，变得十分消极和恍惚，认为这一切都没有任何意义。\n"
+"到底是发生了什么？"
+msgstr ""
+
+#. Name for misc mvz2:sekibanki
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "赤蛮奇"
+msgstr ""
+
+#. Header for misc mvz2:sekibanki
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "居住在人类村庄的妖怪，拥有让自己的头飞行的能力。"
+msgstr ""
+
+#. Flavor for misc mvz2:sekibanki
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"赤蛮奇伪装成普通人类而居住在人类村庄，在这里过着平凡的生活。\n"
+"拥有身首分离，并让头飞行的能力，据说还有非常多的其他头颅可用。\n"
+"\n"
+"在史蒂夫坠船并离开一座废弃的房屋后，她发现了史蒂夫，并质问史蒂夫为什么会从这间屋子里走出来，然而她却没有透露询问这件事的原因。\n"
+"人类村庄发生过什么吗？"
+msgstr ""
+
+#. Name for misc mvz2:byakuren
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "圣 白莲"
+msgstr ""
+
+#. Header for misc mvz2:byakuren
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "命莲寺的住持，法力无边的高僧。"
+msgstr ""
+
+#. Flavor for misc mvz2:byakuren
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"白莲的弟弟——命莲，也是一位法力高强的僧人，但最后还是寿限已至，离世了。\n"
+"因此白莲开始恐惧死亡，她作为一名研习佛法的僧人，最后竟靠着妖怪的力量达成了不老，成为了一名“妖僧”。\n"
+"就这样，白莲成为了一位矛盾的存在。然而，即便被人类发现她与妖怪的秘密，即便遭到封印，她还是一如既往地崇敬着佛法，拯救着众生。\n"
+"\n"
+"三年前，巨人和红龙同时出现，她被请去除掉红龙。然而却也因此陷入因果，在这三年中被缚上了枷锁。"
+msgstr ""
+
 #. Name for almanac group mvz2:areas
 #: Almanac meta file
 msgctxt "almanac.group_name"
@@ -3209,6 +3825,52 @@ msgid ""
 "远处似乎有什么金属工具深深嵌在了墙壁上。"
 msgstr ""
 
+#. Name for misc mvz2:end_ship
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "末地船"
+msgstr ""
+
+#. Header for misc mvz2:end_ship
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "一艘飞翔于幻想乡天空中的船只，时不时会袭击飞在空中的妖怪们。"
+msgstr ""
+
+#. Flavor for misc mvz2:end_ship
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"原本只是会出现在末地中的飞行船只，不知为何竟出现在了幻想乡的空中。\n"
+"奇怪的是，上面没有末影人，有的只是普通的、形似海盗的僵尸。\n"
+"更加奇怪的是，里面居然有一颗末影水晶以极快的速度来修复船体。\n"
+"这导致任何想破坏这艘船的人，必须要先把内部的末影水晶破坏掉，然而这艘船在落入下风时也会选择以极快的速度逃跑。\n"
+"总之，关于这艘船的一切，都是个谜。"
+msgstr ""
+
+#. Name for misc mvz2:palanquin_ship
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "圣辇船"
+msgstr ""
+
+#. Header for misc mvz2:palanquin_ship
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "一艘飞翔于天空中的巨大船只。"
+msgstr ""
+
+#. Flavor for misc mvz2:palanquin_ship
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"圣辇船共有两艘。第一艘圣辇船由圣 白莲使用法力创造，现如今落地变成了命莲寺。虽说仍然可以再变回船的样子，但有一部分人存在去往魔界的需求，需要乘船去往。倘若随意变换寺庙，会造成一些不便。\n"
+"因此白莲又用法力创造了第二艘用于在幻想乡和魔界中来往的圣辇船，作为专门的交通工具。\n"
+"如今白莲杳无音讯，星和命莲寺众人商讨后，登上圣辇船，踏上了寻找白莲的路途。\n"
+"\n"
+"据说幻想乡的高空中有外星人来过的传闻。似乎某些传送信号能把它们引出来？"
+msgstr ""
+
 #. Name for almanac group mvz2:starshards
 #: Almanac meta file
 msgctxt "almanac.group_name"
@@ -3301,6 +3963,27 @@ msgid ""
 "但是，我真的很想回家。"
 msgstr ""
 
+#. Name for misc mvz2:starshard.ufo_fragment
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "星之碎片：飞碟碎片"
+msgstr ""
+
+#. Flavor for misc mvz2:starshard.ufo_fragment
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"未知人士留下了一些记录。\n"
+"\n"
+"星之记录 其五：\n"
+"这该死的异变还在持续着。\n"
+"我没有任何其他选择，只能与它继续进行斗争。\n"
+"我发现我的理智似乎出现了裂痕。\n"
+"我看到了本不应看到的东西，然后那幻觉又立即消失了。\n"
+"那些飞碟还在天上飞着。\n"
+"我到底还能撑多久……？"
+msgstr ""
+
 #. Name for almanac group mvz2:important
 #: Almanac meta file
 msgctxt "almanac.group_name"
@@ -3380,7 +4063,7 @@ msgstr ""
 #. Properties for misc mvz2:obsidian_first_aid
 #: Almanac meta file
 msgctxt "misc.description"
-msgid "效果：<color=red>可以直接在<tag id=\"mvz2:defensive\"/>防御性器械上放置同样的器械以为其恢复所有耐久，而无需挖掉器械</color>"
+msgid "效果：<color=red>可以直接在<tag id=\"mvz2:defensive\" />防御性器械上放置同样的器械以为其恢复所有耐久，而无需挖掉器械</color>"
 msgstr ""
 
 #. Flavor for misc mvz2:obsidian_first_aid
@@ -3508,16 +4191,59 @@ msgctxt "misc.description"
 msgid "细节尚不知情。"
 msgstr ""
 
+#. Name for misc mvz2:abandoned_house
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "废弃的房屋"
+msgstr ""
+
+#. Header for misc mvz2:abandoned_house
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "人类村庄中一座废弃的房屋。"
+msgstr ""
+
+#. Flavor for misc mvz2:abandoned_house
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"史蒂夫从圣辇船中坠落时，被鬼人 正邪救到了这处房屋中。\n"
+"在他出来之后，遭到了赤蛮奇的质问，问他为什么会从这间屋子里出来。\n"
+"然而具体发生了什么，史蒂夫并不知情。\n"
+"这间屋子发生过什么事情吗？"
+msgstr ""
+
+#. Name for misc mvz2:visitor_which_finding_child
+#: Almanac meta file
+msgctxt "misc.name"
+msgid "寻找孩子的访客"
+msgstr ""
+
+#. Header for misc mvz2:visitor_which_finding_child
+#: Almanac meta file
+msgctxt "misc.description"
+msgid "白莲透露，四年前，曾有一位访客来访，寻找自己的孩子。"
+msgstr ""
+
+#. Flavor for misc mvz2:visitor_which_finding_child
+#: Almanac meta file
+msgctxt "misc.description"
+msgid ""
+"史蒂夫解决掉红龙的问题后，白莲告诉他，四年前曾有一位访客来访命莲寺。\n"
+"那位访客自称灯兰 樱，为了寻找自己的孩子而来。\n"
+"在寻子无果后，那位访客便再也没有出现过。不过白莲对于这位访客的存在却仍然抱有乐观态度。"
+msgstr ""
+
 #. Name for entity counter mvz2:low_enemy
 #: Entity meta file
 msgctxt "entity_counter.name"
-msgid "低矮敌人"
+msgid "低矮怪物"
 msgstr ""
 
 #. Name for entity counter mvz2:flying_enemy
 #: Entity meta file
 msgctxt "entity_counter.name"
-msgid "飞行敌人"
+msgid "飞行怪物"
 msgstr ""
 
 #. Name for entity mvz2:dispenser
@@ -3553,7 +4279,7 @@ msgstr ""
 #. Tooltip for entity mvz2:obsidian
 #: Entity meta file
 msgctxt "entity.tooltip"
-msgid "阻碍敌人的前进，并保护背后的其他器械"
+msgid "阻碍怪物的前进，并保护背后的其他器械"
 msgstr ""
 
 #. Name for entity mvz2:mine_tnt
@@ -3643,7 +4369,7 @@ msgstr ""
 #. Name for entity mvz2:silvenser
 #: Entity meta file
 msgctxt "entity.name"
-msgid "银质发射器"
+msgid "银制发射器"
 msgstr ""
 
 #. Tooltip for entity mvz2:silvenser
@@ -3817,7 +4543,7 @@ msgstr ""
 #. Tooltip for entity mvz2:golden_apple
 #: Entity meta file
 msgctxt "entity.tooltip"
-msgid "魅惑攻击它的敌人"
+msgid "魅惑攻击它的怪物"
 msgstr ""
 
 #. Name for entity mvz2:thunder_drum
@@ -3829,7 +4555,7 @@ msgstr ""
 #. Tooltip for entity mvz2:thunder_drum
 #: Entity meta file
 msgctxt "entity.tooltip"
-msgid "触发后震退敌人"
+msgid "触发后震退怪物"
 msgstr ""
 
 #. Name for entity mvz2:tesla_coil
@@ -3877,7 +4603,7 @@ msgstr ""
 #. Tooltip for entity mvz2:lightning_orb
 #: Entity meta file
 msgctxt "entity.tooltip"
-msgid "阻碍敌人前进，并吸收子弹来治疗自己"
+msgid "阻碍怪物前进，并吸收子弹来治疗自己"
 msgstr ""
 
 #. Name for entity mvz2:splitenser
@@ -3949,7 +4675,7 @@ msgstr ""
 #. Tooltip for entity mvz2:desire_pot
 #: Entity meta file
 msgctxt "entity.tooltip"
-msgid "复制敌人身上的星之碎片"
+msgid "复制怪物身上的星之碎片"
 msgstr ""
 
 #. Name for entity mvz2:gunpowder_barrel
@@ -3964,6 +4690,30 @@ msgctxt "entity.tooltip"
 msgid "提供大量能量，但有爆炸的风险"
 msgstr ""
 
+#. Name for entity mvz2:triplenser
+#: Entity meta file
+msgctxt "entity.name"
+msgid "三头发射器"
+msgstr ""
+
+#. Tooltip for entity mvz2:triplenser
+#: Entity meta file
+msgctxt "entity.tooltip"
+msgid "一次射出三行的箭矢"
+msgstr ""
+
+#. Name for entity mvz2:firework_dispenser
+#: Entity meta file
+msgctxt "entity.name"
+msgid "烟花发射器"
+msgstr ""
+
+#. Tooltip for entity mvz2:firework_dispenser
+#: Entity meta file
+msgctxt "entity.tooltip"
+msgid "轰击周围高空的敌人"
+msgstr ""
+
 #. Name for entity mvz2:repeatenser
 #: Entity meta file
 msgctxt "entity.name"
@@ -3974,6 +4724,54 @@ msgstr ""
 #: Entity meta file
 msgctxt "entity.tooltip"
 msgid "一次射出两支箭矢"
+msgstr ""
+
+#. Name for entity mvz2:beacon
+#: Entity meta file
+msgctxt "entity.name"
+msgid "信标"
+msgstr ""
+
+#. Tooltip for entity mvz2:beacon
+#: Entity meta file
+msgctxt "entity.tooltip"
+msgid "向五个方向发射手里剑"
+msgstr ""
+
+#. Name for entity mvz2:wooden_fan
+#: Entity meta file
+msgctxt "entity.name"
+msgid "木风扇"
+msgstr ""
+
+#. Tooltip for entity mvz2:wooden_fan
+#: Entity meta file
+msgctxt "entity.tooltip"
+msgid "吹动一整行的怪物"
+msgstr ""
+
+#. Name for entity mvz2:elastic_cloud
+#: Entity meta file
+msgctxt "entity.name"
+msgid "弹性云"
+msgstr ""
+
+#. Tooltip for entity mvz2:elastic_cloud
+#: Entity meta file
+msgctxt "entity.tooltip"
+msgid "弹走接触到的怪物"
+msgstr ""
+
+#. Name for entity mvz2:jeweled_pagoda
+#: Entity meta file
+msgctxt "entity.name"
+msgid "珠光宝塔"
+msgstr ""
+
+#. Tooltip for entity mvz2:jeweled_pagoda
+#: Entity meta file
+msgctxt "entity.tooltip"
+msgid "禁用一整行地格并生成星之碎片"
 msgstr ""
 
 #. Name for entity mvz2:infectenser
@@ -4016,6 +4814,20 @@ msgctxt "entity.tooltip"
 msgid ""
 "（需要木制投掷器）\n"
 "投出反弹并产生绿宝石的金球"
+msgstr ""
+
+#. Name for entity mvz2:skyward_beacon
+#: Entity meta file
+msgctxt "entity.name"
+msgid "御天信标"
+msgstr ""
+
+#. Tooltip for entity mvz2:skyward_beacon
+#: Entity meta file
+msgctxt "entity.tooltip"
+msgid ""
+"（需要信标）\n"
+"使用光柱定点打击位置"
 msgstr ""
 
 #. Name for entity mvz2:high_frequency_pulse_dispenser
@@ -4067,7 +4879,7 @@ msgstr ""
 #. Tooltip for entity mvz2:anvil
 #: Entity meta file
 msgctxt "entity.tooltip"
-msgid "阻碍敌人的前进"
+msgid "阻碍怪物的前进"
 msgstr ""
 
 #. Name for entity mvz2:random_china
@@ -4366,6 +5178,66 @@ msgctxt "death_message"
 msgid "中道崩殂"
 msgstr ""
 
+#. Name for entity mvz2:undead_flying_object
+#: Entity meta file
+msgctxt "entity.name"
+msgid "不死飞行物"
+msgstr ""
+
+#. Death message for entity mvz2:undead_flying_object
+#: Entity meta file
+msgctxt "death_message"
+msgid "被抓走了！"
+msgstr ""
+
+#. Name for entity mvz2:zombie_cloud
+#: Entity meta file
+msgctxt "entity.name"
+msgid "僵尸云"
+msgstr ""
+
+#. Death message for entity mvz2:zombie_cloud
+#: Entity meta file
+msgctxt "death_message"
+msgid "你就云吧"
+msgstr ""
+
+#. Name for entity mvz2:cannoneer_zombie
+#: Entity meta file
+msgctxt "entity.name"
+msgid "炮手僵尸"
+msgstr ""
+
+#. Death message for entity mvz2:cannoneer_zombie
+#: Entity meta file
+msgctxt "death_message"
+msgid "炮决！"
+msgstr ""
+
+#. Name for entity mvz2:cannonball_zombie
+#: Entity meta file
+msgctxt "entity.name"
+msgid "炮弹僵尸"
+msgstr ""
+
+#. Death message for entity mvz2:cannonball_zombie
+#: Entity meta file
+msgctxt "death_message"
+msgid "-1up"
+msgstr ""
+
+#. Name for entity mvz2:pop_captain
+#: Entity meta file
+msgctxt "entity.name"
+msgid "大力船长僵尸"
+msgstr ""
+
+#. Death message for entity mvz2:pop_captain
+#: Entity meta file
+msgctxt "death_message"
+msgid "永久停泊"
+msgstr ""
+
 #. Name for entity mvz2:mutant_zombie
 #: Entity meta file
 msgctxt "entity.name"
@@ -4564,6 +5436,12 @@ msgctxt "entity.name"
 msgid "巨人蛇尾"
 msgstr ""
 
+#. Name for entity mvz2:red_dragon
+#: Entity meta file
+msgctxt "entity.name"
+msgid "红龙"
+msgstr ""
+
 #. Name for entity mvz2:minecart
 #: Entity meta file
 msgctxt "entity.name"
@@ -4744,6 +5622,30 @@ msgctxt "character.name"
 msgid "影像"
 msgstr ""
 
+#. Name for character mvz2:shou
+#: Character meta file
+msgctxt "character.name"
+msgid "星"
+msgstr ""
+
+#. Name for character mvz2:nue
+#: Character meta file
+msgctxt "character.name"
+msgid "鵺"
+msgstr ""
+
+#. Name for character mvz2:sekibanki
+#: Character meta file
+msgctxt "character.name"
+msgid "赤蛮奇"
+msgstr ""
+
+#. Name for character mvz2:byakuren
+#: Character meta file
+msgctxt "character.name"
+msgid "白莲"
+msgstr ""
+
 #. Name for artifact mvz2:almanac
 #: Artifact meta file
 msgctxt "artifact.name"
@@ -4765,7 +5667,7 @@ msgstr ""
 #. Tooltip for artifact mvz2:hoe
 #: Artifact meta file
 msgctxt "artifact.tooltip"
-msgid "消灭每场战斗的第一个敌人"
+msgid "消灭每场战斗的第一个敌方怪物"
 msgstr ""
 
 #. Name for artifact mvz2:dream_key
@@ -4813,7 +5715,7 @@ msgstr ""
 #. Tooltip for artifact mvz2:pagoda_branch
 #: Artifact meta file
 msgctxt "artifact.tooltip"
-msgid "战斗开始时获得2个星之碎片，但敌人数量+200%"
+msgid "战斗开始时获得2个星之碎片，但怪物数量+200%"
 msgstr ""
 
 #. Name for artifact mvz2:dream_butterfly
@@ -4849,7 +5751,7 @@ msgstr ""
 #. Tooltip for artifact mvz2:bottled_blackhole
 #: Artifact meta file
 msgctxt "artifact.tooltip"
-msgid "每有一个蓝图空位，+15%器械伤害"
+msgid "每有一个蓝图空位，+10%器械伤害"
 msgstr ""
 
 #. Name for artifact mvz2:smart_phone
@@ -4972,6 +5874,54 @@ msgctxt "artifact.tooltip"
 msgid "器械x250%伤害，但x50%攻击速度"
 msgstr ""
 
+#. Name for artifact mvz2:ufo_toy
+#: Artifact meta file
+msgctxt "artifact.name"
+msgid "飞碟玩具"
+msgstr ""
+
+#. Tooltip for artifact mvz2:ufo_toy
+#: Artifact meta file
+msgctxt "artifact.tooltip"
+msgid "拾取三个同色宝石后，再生成一个同色的宝石"
+msgstr ""
+
+#. Name for artifact mvz2:dowsing_rods
+#: Artifact meta file
+msgctxt "artifact.name"
+msgid "探宝棒"
+msgstr ""
+
+#. Tooltip for artifact mvz2:dowsing_rods
+#: Artifact meta file
+msgctxt "artifact.tooltip"
+msgid "击杀怪物时有25%概率掉落额外资源"
+msgstr ""
+
+#. Name for artifact mvz2:sorcerers_scroll
+#: Artifact meta file
+msgctxt "artifact.name"
+msgid "魔人经卷"
+msgstr ""
+
+#. Tooltip for artifact mvz2:sorcerers_scroll
+#: Artifact meta file
+msgctxt "artifact.tooltip"
+msgid "将星之碎片的效果变为格斗术"
+msgstr ""
+
+#. Name for artifact mvz2:dragon_tooth
+#: Artifact meta file
+msgctxt "artifact.name"
+msgid "龙牙"
+msgstr ""
+
+#. Tooltip for artifact mvz2:dragon_tooth
+#: Artifact meta file
+msgctxt "artifact.tooltip"
+msgid "生命值为50%或以下的敌人受到的伤害x200%"
+msgstr ""
+
 #. Message for blueprint error recharging
 #: Blueprints meta file
 msgctxt "blueprint.error"
@@ -5012,5 +5962,59 @@ msgstr ""
 #: Blueprints meta file
 msgctxt "option.name"
 msgid "增加弹珠"
+msgstr ""
+
+#. Name for entity blueprint skeleton_mage_fire
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "骷髅法师（火）"
+msgstr ""
+
+#. Name for entity blueprint skeleton_mage_frost
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "骷髅法师（冰）"
+msgstr ""
+
+#. Name for entity blueprint skeleton_mage_lightning
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "骷髅法师（电）"
+msgstr ""
+
+#. Name for entity blueprint undead_flying_object_red
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "不死飞行物（红）"
+msgstr ""
+
+#. Name for entity blueprint undead_flying_object_green
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "不死飞行物（绿）"
+msgstr ""
+
+#. Name for entity blueprint undead_flying_object_blue
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "不死飞行物（蓝）"
+msgstr ""
+
+#. Name for entity blueprint undead_flying_object_rainbow
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "不死飞行物（彩）"
+msgstr ""
+
+#. Name for entity blueprint zombie_cloud_thunder
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "僵尸云（雷）"
+msgstr ""
+
+#. Name for entity blueprint zombie_cloud_snow
+#: Blueprints meta file
+msgctxt "entity.name"
+msgid "僵尸云（雪）"
 msgstr ""
 
